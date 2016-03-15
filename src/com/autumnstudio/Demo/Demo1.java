@@ -1,7 +1,7 @@
 package com.autumnstudio.Demo;
 
 /*
- * ÑÝÊ¾Àà
+ * æ¼”ç¤ºç±»
  */
 public class Demo1 {
 	public static void main(String[] args) {
