@@ -5,19 +5,19 @@ import java.util.Arrays;
 public class Demo5 {
 	public static void main(String[] args) {
 		//replace
-		String str = "½ñÌìÍíÉÏ²»¿¼ÊÔ£¡";
-		System.out.println(str.replace('²»', 'Òª'));
-		System.out.println(str.replace("½ñÌì", "Ã÷Ìì"));
+		String str = "ä»Šå¤©æ™šä¸Šä¸è€ƒè¯•ï¼";
+		System.out.println(str.replace('ä¸', 'è¦'));
+		System.out.println(str.replace("ä»Šå¤©", "æ˜å¤©"));
 		
 		//split
-		String str1 = "´ó-¼Ò-ÏÂ-Îç-ºÃ";
+		String str1 = "å¤§-å®¶-ä¸‹-åˆ-å¥½";
 		String[] arr = str1.split("-");
 		System.out.println(Arrays.toString(arr));
 		
 		//subString
-		String str2 = "ÇïÌì¹¤×÷ÊÒ";
+		String str2 = "ç§‹å¤©å·¥ä½œå®¤";
 		System.out.println(str2.substring(2));
-		System.out.println(str2.substring(0, 2)); //°üÍ·²»°üÎ²
+		System.out.println(str2.substring(0, 2)); //åŒ…å¤´ä¸åŒ…å°¾
 		
 		//trim
 		String str3 = "      abc de        ";

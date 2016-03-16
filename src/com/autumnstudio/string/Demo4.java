@@ -1,23 +1,23 @@
 package com.autumnstudio.string;
 
 /*
- * StringµÄÅĞ¶Ï·½·¨
- * StringµÄ×ª»»·½·¨
+ * Stringçš„åˆ¤æ–­æ–¹æ³•
+ * Stringçš„è½¬æ¢æ–¹æ³•
  * 	toCharArrey
  * 	getBytes
  */
 public class Demo4 {
 	public static void main(String[] args) {
 		String fileName = new String("d:\\development\\java\\jdk.chm");
-		System.out.println("ÊÇ·ñÒÔ.java½áÊø£¿ " + fileName.endsWith(".java"));
-		System.out.println("ÊÇ·ñÒÔ.chm½áÊø£¿ " + fileName.endsWith(".chm"));
+		System.out.println("æ˜¯å¦ä»¥.javaç»“æŸï¼Ÿ " + fileName.endsWith(".java"));
+		System.out.println("æ˜¯å¦ä»¥.chmç»“æŸï¼Ÿ " + fileName.endsWith(".chm"));
 		
 		System.out.println(fileName.isEmpty());
 		
 		System.out.println(fileName.contains("java"));
 		
-		//equals ÅĞ¶ÏÊÇ·ñÏàµÈ
-		//equalsIgnoreCase ºöÂÔ´óĞ¡Ğ´ÅĞ¶ÏÊÇ·ñÏàµÈ
+		//equals åˆ¤æ–­æ˜¯å¦ç›¸ç­‰
+		//equalsIgnoreCase å¿½ç•¥å¤§å°å†™åˆ¤æ–­æ˜¯å¦ç›¸ç­‰
 		
 		String str1 = "abc";
 		String str2 = "ABC";

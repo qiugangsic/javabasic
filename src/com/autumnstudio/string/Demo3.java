@@ -1,19 +1,19 @@
 package com.autumnstudio.string;
 
 /*
- * ²âÊÔStringµÄ»ñÈ¡·½·¨
+ * æµ‹è¯•Stringçš„è·å–æ–¹æ³•
  */
 public class Demo3 {
 	public static void main(String[] args) {
 		String str1 = "abcde";
-		System.out.println("×Ö·û´®µÄ³¤¶ÈÊÇ" + str1.length());
+		System.out.println("å­—ç¬¦ä¸²çš„é•¿åº¦æ˜¯" + str1.length());
 		int[] arr = new int[2];
-		System.out.println("Êı×éµÄ³¤¶ÈÊÇ" + arr.length);
+		System.out.println("æ•°ç»„çš„é•¿åº¦æ˜¯" + arr.length);
 		
 		System.out.println(str1.charAt(2));
 		
 		System.out.println(str1.indexOf("bc"));
-		System.out.println(str1.indexOf("ef")); //ÕÒ²»µ½·µ»Ø-1
+		System.out.println(str1.indexOf("ef")); //æ‰¾ä¸åˆ°è¿”å›-1
 		System.out.println(str1.lastIndexOf("bc"));
 	}
 }

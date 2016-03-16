@@ -4,14 +4,14 @@ public class Demo2 {
 	public static void main(String[] args) {
 		String str = new String();
 		byte[] buf = {97, 98, 99};
-		String str1 = new String(buf); //Ê¹ÓÃ×Ö·ûÊý×é¹¹½¨String¶ÔÏó
+		String str1 = new String(buf); //ä½¿ç”¨å­—ç¬¦æ•°ç»„æž„å»ºStringå¯¹è±¡
 		String str2 = new String(buf, 1, 2);
 		
 		System.out.println(str);
 		System.out.println(str1);
 		System.out.println(str2);
 		
-		char[] arr = {'Ã÷', 'Ìì', 'ÊÇ', 'Ê¥', 'µ®', '½Ú'};
+		char[] arr = {'æ˜Ž', 'å¤©', 'æ˜¯', 'åœ£', 'è¯ž', 'èŠ‚'};
 		String str3 = new String(arr);
 		String str4 = new String(arr, 3, 3);
 		System.out.println(str3);

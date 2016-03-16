@@ -14,22 +14,22 @@ public class Demo1 {
 		System.out.println("hashcode : " + demo.hashCode());
 		System.out.println("toString : " + demo.toString());
 		
-		Person p = new Person(110, "¹·ÍŞ");
-		Person p1 = new Person(120, "¹·Ê£");
-		Person p2 = new Person(120, "¹·Ê£");
+		Person p = new Person(110, "ç‹—å¨ƒ");
+		Person p1 = new Person(120, "ç‹—å‰©");
+		Person p2 = new Person(120, "ç‹—å‰©");
 		System.out.println(p);
 		System.out.println(p2);
 		
 		System.out.println(p.equals(p2));
 		System.out.println(p1.equals(p2));
 		
-		//ĞèÇó£ºÏÖÊµÉú»îÖĞÉí·İÖ¤ÏàÍ¬¾ÍÊÇÍ¬Ò»¸öÈË
-		//ÖØĞ´equals·½·¨
-		Person p3 = new Person(110, "¹·ÍŞ"); //Ğ¡Ãû
-		Person p4 = new Person(110, "³Â´ó¸»"); //´óÃû
-		System.out.println("p3ºÍp4ÊÇÍ¬Ò»¸öÈËÂğ£¿" + p3.equals(p4));
+		//éœ€æ±‚ï¼šç°å®ç”Ÿæ´»ä¸­èº«ä»½è¯ç›¸åŒå°±æ˜¯åŒä¸€ä¸ªäºº
+		//é‡å†™equalsæ–¹æ³•
+		Person p3 = new Person(110, "ç‹—å¨ƒ"); //å°å
+		Person p4 = new Person(110, "é™ˆå¤§å¯Œ"); //å¤§å
+		System.out.println("p3å’Œp4æ˜¯åŒä¸€ä¸ªäººå—ï¼Ÿ" + p3.equals(p4));
 		
-		//java¹æ·¶ÖĞ£¬ÖØĞ´ÁËequals·½·¨ºó£¬¶¼ĞèÒªÖØĞ´hashcode·½·¨¡£
+		//javaè§„èŒƒä¸­ï¼Œé‡å†™äº†equalsæ–¹æ³•åï¼Œéƒ½éœ€è¦é‡å†™hashcodeæ–¹æ³•ã€‚
 		System.out.println(p3.hashCode());
 		System.out.println(p4.hashCode());
 	}
@@ -64,7 +64,7 @@ class Person {
 
 	@Override
 	public String toString() {
-		return "±àºÅ:" + id + ", ĞÕÃû:" + name;
+		return "ç¼–å·:" + id + ", å§“å:" + name;
 	}
 
 	@Override

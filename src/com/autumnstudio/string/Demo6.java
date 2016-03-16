@@ -27,13 +27,13 @@ public class Demo6 {
 		return str.substring(startIndex, endIndex + 1);
 	}
 	
-	//»ñÈ¡Â·¾¶ÖĞµÄÎÄ¼şÃû
+	//è·å–è·¯å¾„ä¸­çš„æ–‡ä»¶å
 	public static String getFileName(String path) {
 		int beginIndex = path.lastIndexOf('\\');
 		return path.substring(beginIndex + 1);
 	}
 	
-	//·´×ª×Ö·û´®
+	//åè½¬å­—ç¬¦ä¸²
 	public static String reverse(String str) {
 		char[] arr = str.toCharArray();
 		for (int i = 0, j = arr.length - 1; i < j; i++, j--) {
@@ -44,7 +44,7 @@ public class Demo6 {
 		return new String(arr);
 	}
 	
-	//×Ö·û´®³öÏÖµÄ´ÎÊı
+	//å­—ç¬¦ä¸²å‡ºç°çš„æ¬¡æ•°
 	public static int countSubString(String target, String sub) {
 		int count = 0;
 		int index = 0;

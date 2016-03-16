@@ -10,23 +10,23 @@ import java.util.Date;
  */
 public class Demo3 {
 	public static void main(String[] args) throws ParseException {
-		Date date = new Date();  //获取当前系统时间
+		Date date = new Date(); // 锟斤拷取锟斤拷前系统时锟斤拷
 		System.out.println(date);
-		
+
 		Calendar calendar = Calendar.getInstance();
 		System.out.println(calendar.get(Calendar.YEAR));
 		System.out.println(calendar.get(Calendar.MONTH));
 		System.out.println(calendar.get(Calendar.DAY_OF_MONTH));
-		
+
 		System.out.println(calendar.get(Calendar.HOUR_OF_DAY));
 		System.out.println(calendar.get(Calendar.HOUR));
 		System.out.println(calendar.get(Calendar.MINUTE));
 		System.out.println(calendar.get(Calendar.SECOND));
-		
-		//SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+		// SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		SimpleDateFormat sdf = new SimpleDateFormat();
 		System.out.println(sdf.format(new Date()));
-		
+
 		System.out.println(sdf.parse("2015-01-01 00:00:00"));
 	}
 }

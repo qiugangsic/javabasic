@@ -1,20 +1,20 @@
 package com.autumnstudio.stringbuffer;
 
 /*
- * StringBufferÊÇÒ»¸ö´æ´¢×Ö·ûµÄÈİÆ÷£¬¾ß±¸ÒÔÏÂĞĞÎª£º
- * Ôö¼Ó -- append
+ * StringBufferæ˜¯ä¸€ä¸ªå­˜å‚¨å­—ç¬¦çš„å®¹å™¨ï¼Œå…·å¤‡ä»¥ä¸‹è¡Œä¸ºï¼š
+ * å¢åŠ  -- append
  *     -- insert
- * É¾³ı -- delete
- * ĞŞ¸Ä -- ensureCapacity À©Õ¹ÈİÁ¿ -- Ò»°ã²»»áÓÃËü
- *     -- replace Ìæ»»
- *     -- reverse ·´×ª
+ * åˆ é™¤ -- delete
+ * ä¿®æ”¹ -- ensureCapacity æ‰©å±•å®¹é‡ -- ä¸€èˆ¬ä¸ä¼šç”¨å®ƒ
+ *     -- replace æ›¿æ¢
+ *     -- reverse åè½¬
  *     -- setCharAt
  *     -- subString
- * ²é¿´ -- indexOf
+ * æŸ¥çœ‹ -- indexOf
  *     -- charAt
  *     -- toString
  *     -- capacity
- *  StringBuilder JDK 1.5¿ªÊ¼³öÏÖ
+ *  StringBuilder JDK 1.5å¼€å§‹å‡ºç°
  */
 public class Demo2 {
 	public static void main(String[] args) {
@@ -27,16 +27,16 @@ public class Demo2 {
 		System.out.println(sb);
 		
 		//insert
-		sb.insert(2, "ÖĞ¹ú");
+		sb.insert(2, "ä¸­å›½");
 		System.out.println(sb);
 		
 		//delete
-		sb.delete(5, 9); //°üÍ·²»°üÎ²
+		sb.delete(5, 9); //åŒ…å¤´ä¸åŒ…å°¾
 		sb.deleteCharAt(4);
 		System.out.println(sb);
 		
 		//replace
-		sb.replace(2, 4, "ÖĞ»ªÈËÃñ¹²ºÍ¹ú"); //°üÍ·²»°üÎ²
+		sb.replace(2, 4, "ä¸­åäººæ°‘å…±å’Œå›½"); //åŒ…å¤´ä¸åŒ…å°¾
 		
 		//reverse
 		sb.reverse();

@@ -11,18 +11,18 @@ public class Demo1 {
 		System.out.println("str2==str3? " + (str2 == str3));
 		System.out.println("str3==str4? " + (str3 == str4));
 		System.out.println("str3 equals str4? " + (str1.equals(str4)));
-		//"=="ÓÃÓÚ±È½ÏÒıÓÃÊı¾İÀàĞÍµÄÊ±ºòÊÇ±È½ÏÁ½¸ö¶ÔÏóµÄÄÚ´æµØÖ·£¬equals·½·¨Ä¬ÈÏÒ²ÊÇ±È½ÏÁ½¸ö¶ÔÏóµÄµØÖ·¡£
-		//ËùÒÔĞèÒªÖØĞ´¶ÔÏóµÄequals·½·¨£¬À´±È½ÏÒıÓÃÀàĞÍµÄÊı¾İÀàĞÍµÄ¶ÔÏó¡£
+		//"=="ç”¨äºæ¯”è¾ƒå¼•ç”¨æ•°æ®ç±»å‹çš„æ—¶å€™æ˜¯æ¯”è¾ƒä¸¤ä¸ªå¯¹è±¡çš„å†…å­˜åœ°å€ï¼Œequalsæ–¹æ³•é»˜è®¤ä¹Ÿæ˜¯æ¯”è¾ƒä¸¤ä¸ªå¯¹è±¡çš„åœ°å€ã€‚
+		//æ‰€ä»¥éœ€è¦é‡å†™å¯¹è±¡çš„equalsæ–¹æ³•ï¼Œæ¥æ¯”è¾ƒå¼•ç”¨ç±»å‹çš„æ•°æ®ç±»å‹çš„å¯¹è±¡ã€‚
 		
-		test("ÖĞ¹ú");
-		test("ÃÀ¹ú");
+		test("ä¸­å›½");
+		test("ç¾å›½");
 	}
 	
 	public static void test(String str) {
-		if ("ÖĞ¹ú".equals(str)) {
-			System.out.println("ÕıÈ·");
+		if ("ä¸­å›½".equals(str)) {
+			System.out.println("æ­£ç¡®");
 		}else{
-			System.out.println("»Ø´ğ´íÎó");
+			System.out.println("å›ç­”é”™è¯¯");
 		}
 	}
 }

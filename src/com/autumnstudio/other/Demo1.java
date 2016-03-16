@@ -6,13 +6,13 @@ import java.util.Date;
 import java.util.Properties;
 
 /*
- * System ÏµÍ³Àà£¬Ö÷ÒªÓÃÓÚ»ñÈ¡ÏµÍ³µÄÊôĞÔÖµ
- * -- arrayCopy·½·¨ arraycopy(Object src, int srcPos, Object dest, int destPos, int length) 
- * -- currentTimeMillis() ·µ»ØÒÔºÁÃëÎªµ¥Î»µÄµ±Ç°Ê±¼ä
- * -- exit(int status) ÖÕÖ¹µ±Ç°ÕıÔÚÔËĞĞµÄ Java ĞéÄâ»ú¡£
- * -- gc() ÔËĞĞÀ¬»ø»ØÊÕÆ÷¡£  *** ½¨ÒéJVMÁ¢¼´Æô¶¯À¬»ø»ØÊÕÆ÷
- * -- getenv() ·µ»ØÒ»¸ö²»ÄÜĞŞ¸ÄµÄµ±Ç°ÏµÍ³»·¾³µÄ×Ö·û´®Ó³ÉäÊÓÍ¼¡£
- * -- getProperties() È·¶¨µ±Ç°µÄÏµÍ³ÊôĞÔ¡£
+ * System ç³»ç»Ÿç±»ï¼Œä¸»è¦ç”¨äºè·å–ç³»ç»Ÿçš„å±æ€§å€¼
+ * -- arrayCopyæ–¹æ³• arraycopy(Object src, int srcPos, Object dest, int destPos, int length) 
+ * -- currentTimeMillis() è¿”å›ä»¥æ¯«ç§’ä¸ºå•ä½çš„å½“å‰æ—¶é—´
+ * -- exit(int status) ç»ˆæ­¢å½“å‰æ­£åœ¨è¿è¡Œçš„ Java è™šæ‹Ÿæœºã€‚
+ * -- gc() è¿è¡Œåƒåœ¾å›æ”¶å™¨ã€‚  *** å»ºè®®JVMç«‹å³å¯åŠ¨åƒåœ¾å›æ”¶å™¨
+ * -- getenv() è¿”å›ä¸€ä¸ªä¸èƒ½ä¿®æ”¹çš„å½“å‰ç³»ç»Ÿç¯å¢ƒçš„å­—ç¬¦ä¸²æ˜ å°„è§†å›¾ã€‚
+ * -- getProperties() ç¡®å®šå½“å‰çš„ç³»ç»Ÿå±æ€§ã€‚
  */
 public class Demo1 {
 	public static void main(String[] args) {
@@ -46,6 +46,6 @@ class Demo {
 	@Override
 	protected void finalize() throws Throwable {
 		super.finalize();
-		System.out.println("À¬»ø»ØÊÕ");
+		System.out.println("åƒåœ¾å›æ”¶");
 	}
 }

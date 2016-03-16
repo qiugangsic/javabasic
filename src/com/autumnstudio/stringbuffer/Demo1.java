@@ -1,13 +1,13 @@
 package com.autumnstudio.stringbuffer;
 
 /*
- * StringBuffer是一个存储字符的容器，具备以下行为：
- * 增加 -- append
+ * StringBuffer鏄竴涓瓨鍌ㄥ瓧绗︾殑瀹瑰櫒锛屽叿澶囦互涓嬭涓猴細
+ * 澧炲姞 -- append
  *     -- insert
- * 删除 -- delete
- * 修改 -- ensureCapacity
- * 查看 --
- * 判断 --
+ * 鍒犻櫎 -- delete
+ * 淇敼 -- ensureCapacity
+ * 鏌ョ湅 --
+ * 鍒ゆ柇 --
  */
 public class Demo1 {
 	public static void main(String[] args) {
